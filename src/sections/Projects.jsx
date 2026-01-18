@@ -2,40 +2,40 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "AI Talking Agent",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "KenTalk is an enterprise-grade AI voice assistant that enables intelligent, multilingual, and context-aware voice interactions across business systems like ERP, CRM, and BI tools.",
+    image: "/projects/portfolio-kentalk.png",
+    tags: ["React", "SCSS", "Tailwind", "GSAP"],
+    link: "https://kentalk-vercel.vercel.app/",
+    github: "https://github.com/shoaib-farooqi/kentalk-vercel",
+  },
+  {
+    title: "Search GPT",
+    description:
+      "A ChatGPT clone developed with the MERN stack that provides fast, AI-powered conversational responses in a user-friendly interface.",
+    image: "/projects/portfolio-GPT.png",
+    tags: ["React.js", "Express", "MongoDB", "Node.js"],
+    link: "http://ec2-54-234-95-0.compute-1.amazonaws.com/",
+    github: "https://github.com/shoaib-farooqi/Search-gpt-backend",
   },
   {
     title: "E-Commerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "A mini e-commerce frontend built with Next.js and TypeScript featuring SSR, dynamic routing, and external API integration.",
+    image: "/projects/portfolio-Ecomm.png",
+    tags: ["Next.js", "Typescript", "Tailwincss",],
+    link: "https://github.com/shoaib-farooqi/mini-e-comm",
+    github: "https://github.com/shoaib-farooqi/mini-e-comm",
   },
   {
     title: "Project Management Tool",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "A Zomato-inspired food discovery platform built with the MERN stack, featuring a Reels-style vertical video feed for exploring restaurants and dishes.",
+    image: "/projects/portfolio-zomato.png",
+    tags: ["MongoDB", "Express", "Node.js", "React"],
+    link: "https://github.com/shoaib-farooqi/zomato-reels-clone",
+    github: "https://github.com/shoaib-farooqi/zomato-reels-clone",
   },
 ];
 
