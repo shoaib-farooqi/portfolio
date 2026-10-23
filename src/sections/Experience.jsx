@@ -1,42 +1,35 @@
 const experiences = [
   {
-    period: "2024 — 2025",
-    role: "Full Stack Engineer",
+    period: "November 2024 — September 2025",
+    role: "Full Stack Developer Intern",
     company: "Intencode Pvt. Ltd.",
+    site: "Hyderabad, Onsite",
     description:
       "Built interactive web solutions with GSAP and Framer Motion, created a dynamic Resume Generator using PHP and MySQL, and worked on KenTalk, gaining hands-on experience in full-stack development and optimized data handling.",
-    technologies: ["React", "MongoDB", "SQL", "Node.js", "PHP"],
-    current: true,
+    technologies: ["React", "SQL", "Node.js", "PHP"],
+    current: false,
+  },
+    {
+    period: "October 2025 — April 2026",
+    role: "Frontend Developer",
+    company: "Tektronix Technologies Pvt Ltd",
+    site: "Remote",
+    description:
+      "Built reusable, responsive components in Next.js, TypeScript, and Tailwind CSS, including a video carousel, Blogs and News sections, and an Access Control Ecosystem page.",
+    technologies: ["Nextjs","Typescript", "React", "TailwindCSS"],
+    current: false,
+  },
+      {
+    period: "Feburary 2026 — September 2026",
+    role: "Full Stack Developer",
+    company: "Kenz Innovations Pvt Ltd",
+    site: "Hyderabad, Onsite",
+    description:
+      "Developed and deployed backend APIs and real time voice/call tracking integrations using Node.js, Express.js, MySQL, Twilio, and SignalWire for AI-powered SaaS applications. Built three responsive React dashboards from Figma designs, integrated live REST APIs, and implemented lead capture systems for two business websites.",
+    technologies: ["Reactjs", "Nodejs", "Express", "MySQL", "FastApi", "GSAP", "GenAI"],
+    current: false,
   },
 ];
-//   {
-//     period: "2020 — 2022",
-//     role: "Frontend Engineer",
-//     company: "Digital Solutions Co.",
-//     description:
-//       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-//     technologies: ["React", "Redux", "Jest", "Cypress"],
-//     current: false,
-//   },
-//   {
-//     period: "2019 — 2020",
-//     role: "Junior Developer",
-//     company: "StartUp Labs",
-//     description:
-//       "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-//     technologies: ["React", "Node.js", "MongoDB", "AWS"],
-//     current: false,
-//   },
-//   {
-//     period: "2018 — 2019",
-//     role: "Freelance Developer",
-//     company: "Self-Employed",
-//     description:
-//       "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-//     technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
-//     current: false,
-//   },
-// ];
 
 export const Experience = () => {
   return (
@@ -110,7 +103,7 @@ export const Experience = () => {
                       {exp.period}
                     </span>
                     <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
-                    <p className="text-muted-foreground">{exp.company}</p>
+                    <p className="text-muted-foreground">{exp.company} | {exp.site}</p>
                     <p className="text-sm text-muted-foreground mt-4">
                       {exp.description}
                     </p>

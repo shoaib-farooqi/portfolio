@@ -3,7 +3,7 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 const socialLinks = [
   { icon: Github, href: "https://github.com/shoaib-farooqi", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/abdul-haleem-farooqui", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  // { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
 const footerLinks = [

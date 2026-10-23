@@ -14,19 +14,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "intencodesf@gmail.com",
-    href: "mailto:intencodesf@gmail.com",
+    value: "abdulhaleem2813@gmail.com",
+    href: "mailto:abdulhaleem2813@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 9398985066",
-    href: "tel:+919398985066",
+    value: "+971 582512497",
+    href: "tel:+971582512497",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Hyderabad, IN",
+    value: "Dubai, UAE",
     href: "#",
   },
 ];
