@@ -51,7 +51,10 @@ export const ChatInput = forwardRef(function ChatInput(
   const showHint = value.length >= HINT_THRESHOLD;
 
   return (
-    <div className="px-3 pb-3 pt-2 border-t border-[var(--color-border)] flex-shrink-0">
+    <div
+      className="px-3 pb-3 pt-2 border-t border-[var(--color-border)] flex-shrink-0"
+      style={{ paddingBottom: "max(12px, env(safe-area-inset-bottom))" }}
+    >
       <div className="flex items-end gap-2 rounded-xl border border-[var(--color-border)] bg-[var(--color-muted)] px-3 py-2 focus-within:border-primary/60 transition-colors">
         <textarea
           ref={setRef}

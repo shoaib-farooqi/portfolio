@@ -24,7 +24,9 @@ export function ChatWidget() {
         aria-label="Talk to Abdul"
         aria-expanded={isOpen}
         aria-haspopup="dialog"
-        className="chat-launcher fixed z-[9999] flex items-center gap-2 px-4 py-3 rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/30 hover:bg-primary/90 hover:shadow-primary/50 hover:shadow-xl transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+        className={`chat-launcher fixed z-[9999] items-center gap-2 px-4 py-3 rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/30 hover:bg-primary/90 hover:shadow-primary/50 hover:shadow-xl transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+          isOpen ? "hidden sm:flex" : "flex"
+        }`}
         style={{
           bottom: "calc(16px + env(safe-area-inset-bottom))",
           right: "calc(16px + env(safe-area-inset-right))",
